@@ -2290,7 +2290,7 @@ export default WaterfallCont;
             errs.push(\`Sorry about that! We only accept JPG and PNG files! :(\`);
           }
           if (file.size > 6000000) {
-            errs.push(\`'\${file.name}\' is too large, please pick a smaller file\`);
+            errs.push('\${file.name} is too large, please pick a smaller file');
           }
     
           formData.append(i, file);
