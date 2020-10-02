@@ -1,0 +1,12 @@
+.sort:hover {
+    filter: brightness(110%);
+    transform: scale(1.1);
+    transition: ease-in-out 0.1s;
+}
+
+.uploaded-img:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+
